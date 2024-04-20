@@ -1,0 +1,450 @@
+body, html{
+    display: flex;
+    overflow-y: hidden;
+    gap: 5%;
+    height: 100%;
+    width: 100%;
+    
+}
+
+/*General ajust*/
+p{
+    padding: 0;
+    margin: 0;
+    pointer-events: none;
+}
+/*Aside Nav bar*/
+
+.SideNavBar{
+    width: 15%;
+}
+
+.nav-item:hover{
+    background-color: rgba(0, 0, 0, 0.093);
+    border-radius: 8px;
+
+}
+
+
+.nav-item:hover .x1lliihq{
+    transition-duration: 300ms;
+    transform: scale(1.1);
+
+}
+
+.nav-item:hover .rounded-circle{
+    transition-duration: 300ms;
+    transform: scale(1.1);
+
+}
+
+.d-flex {
+    height:100%;
+}
+
+.bi {
+    min-height: 60px;
+}
+
+@media (width < 1263px) {
+    .PtextNavBar{
+        display:none;
+    }
+
+    .SideNavBar{
+        width: 80px;
+    }
+    header{
+        width: 90%;
+    }
+
+    .estados{
+        height: 100%;
+        width: 100%;
+    }
+    #estado >img{
+        height: 90%;
+        width: 100%;
+    }
+    
+    .container{
+        width: auto;
+        height: auto;
+    }
+    .row{
+        width: auto;
+        height: auto;
+        justify-content: center;
+    }
+}
+
+/*Config NavBar below*/
+
+.BelowNavBar {
+    display:none;
+}
+
+/*Phone query*/
+@media (width < 768px){
+    .SideNavBar{
+        display: none;
+    }
+    .BelowNavBar{
+        position: absolute;
+        display: block;
+        width: 100%;
+        height: 50px;
+        bottom: 0;
+    }
+    .UlBlowNavBar{
+        
+        gap:40px;
+    }
+    .main-section{
+        min-width: 100%;
+    }
+    body, html{
+        height: 100%;
+        width:100%;
+        gap: 0;
+    }
+
+
+    .row .col{
+        width: 33%;
+        height: 33%;
+    }
+
+    #estado >img{
+        height: 10px;
+        width: 10px;
+        min-width: 100%;
+        
+    }
+
+    #estados{
+        height: 100%;
+        width: 50%;
+    }
+}
+
+/*Parte central arriba*/
+
+.main-section{
+    height: 100%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+}
+
+img{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    height: 29%;
+    justify-content: center;
+    align-items:center;    
+    width: 100%;   
+}
+
+.foto-perfil{
+    display: flex;
+    justify-content: end;
+    height: 55%;
+    width: 30%;
+    margin-right: 5px;
+}
+
+
+/*Caja del texto*/
+.informacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    height: 60%;
+    width: 70%;
+}
+
+.btn{
+    background-color:rgb(53, 53, 53);
+    border-color: rgb(53, 53, 53);
+    font-weight: bold;
+
+}
+
+.btn-primary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-group{
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-content:center;
+}
+
+
+/*Botones*/
+#boton1{
+    width: 150px;
+    height: 50%;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#boton2{
+    width: 150px;
+    height: 50%;
+    border-radius: 5px;
+}
+
+#boton3{
+    width: 150px;
+    padding:5px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    font-size: 9px;
+}
+
+
+#nombre{
+    width: 100%;
+    text-align: justify;
+    justify-content: left;
+}
+
+.informacion p{
+    display: flex;
+    justify-content: end;
+    margin: 0%;
+
+}
+
+.filas{
+    display:flex;
+    height: 25%;
+    justify-content: space-around;
+    width: 100%;
+}
+
+span{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+#primera{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 15%;
+    width: 100%;
+    gap: 6%;
+}
+
+#segunda{
+    height: 15%;
+    width: 100%;
+    gap: 10px
+}
+
+.filas, #subnombre{
+    justify-content: left;
+    margin-top: 0%;
+}
+
+#subnombre{
+    height: 15%;
+}
+
+#tercera{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 30%;
+    width: 100%;
+}
+
+.filas, #seguidores{
+    justify-content: left;
+    margin-top: 0%;
+}
+
+/*Estados*/
+
+#estados{
+    height: 13%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items:left;
+    
+    
+}
+
+#estados p{
+    text-align: center;
+    width: 9%;
+}
+
+#estado{
+    justify-content: center;
+    height: 90%;
+    width: 9%;
+    
+}
+
+#estado >img{
+    height: 85%;
+    width: 100%;
+}
+
+.MainImg{
+    border:solid #e4e4e4;
+    padding: 20px;
+}
+
+.donald{
+    padding: 15px;
+    border:solid #e4e4e4;
+
+}
+
+
+hr{
+    width: 100%;
+    margin: 0%;
+}
+
+/*Fotos*/
+
+main{
+    width: 100%;
+    height: 55%;
+}
+
+.opciones-container{
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 0%;
+}
+
+#publicaciones{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-weight: bold;
+    border-top: solid;
+    height: 102%;
+}
+
+
+#guardado{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 102%;
+}
+
+#etiquetadas{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 102%;
+}
+
+/*Imagenes de feed*/
+
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content:  right;
+}
+
+
+.row{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    gap: 2px;
+}
+
+.row .col{
+    width: 30%;
+    height: 48%;
+    
+}
+
+.col img{
+    height: 100%;
+    margin: 0%;
+}
+
+
+/*Responsive Main*/
+
+@media (width < 786px){
+    header{
+        display: flex;
+        align-items: center;
+        width: auto;
+    }
+    .informacion{
+        width: auto;
+        height: auto;
+    }
+    
+    .filas{
+        width: 50%;
+    }
+
+    .btn-group{
+        width: auto;
+        height: auto;
+    }
+
+    #boton1{
+        width: auto;
+        height: auto;
+    }
+    
+    #boton2{
+        width: auto;
+        height: auto;
+        
+    }
+    
+    #boton3{
+        width: auto;
+    }
+
+   
+}
+
+@media (width < 968px){
+    .row .col{
+        width: 33%;
+        height: 33%;
+    }
+
+    #estado >img{
+        height: 80%;
+        width: 110%;
+    }
+}
+
+@media (width < 540){
+    
+}
