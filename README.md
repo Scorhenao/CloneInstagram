@@ -10,7 +10,7 @@
 
 ## Agregar cambios
 ```text
-  git add a-
+  git add A-
   git add .
   git add <file>
 ```
